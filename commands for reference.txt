@@ -1,0 +1,19 @@
+Git Command
+
+git init
+git branch <name>
+git checkout <name>
+git remote add origin <url>  (to add origin if the local branch is create before the repository)
+git remote -v  (displays the info of origin and upstream)
+
+git pull --rebase OR
+git pull --rebase origin <name> (use this before committing when you have a remote with a readme file or some other changes present in it)
+
+git push origin <name>
+git push origin <name> -f (force push if we have used git reset in local branch)
+
+git rebase -i <hash id> (of the commit)
+VIM commands ==> i to start edit, :wq - to save and exit, :q! - to quit without saving
+
+git fork ==> to be used when we do not have the access to the project.
+git remote add upstream <url> (when we have to set upstream)
